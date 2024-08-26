@@ -1,0 +1,1356 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Shoes websites </title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper js cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shoe-prints"></i> shoes</a>
+
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="shoes.html">shoes</a>
+            <a href="sandel.html">sandel</a>
+            <a href="chapal.html">chapal</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" id="search-box" placeholder="search here...">
+            <label class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+
+        <div class="slides-container">
+            
+            <div class="slide active">
+                <div class="content">
+                    <span>new winter</span>
+                    <h3>sandel collection</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim consequatur reprehenderit.</p>
+                    <button class="btn">
+                        <span>shop now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="image">
+                    <img src="https://www.shutterstock.com/image-photo/childrens-footwear-isolated-on-white-260nw-492795850.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <span>new winter</span>
+                    <h3>shoes collection</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim consequatur reprehenderit.</p>
+                    <button class="btn">
+                        <span>shop now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="image">
+                    <img src="https://images.jdmagicbox.com/quickquotes/images_main/campus-renj-jo-sandals-164864754-8xbcf.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div id="slide-next" onclick="next()" class="fas fa-angle-right"></div>
+        <div id="slide-prev" onclick="prev()" class="fas fa-angle-left"></div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- latest product section starts -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"><span>latest</span> products</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://images.jdmagicbox.com/quickquotes/images_main/campus-renj-jo-sandals-164864754-8xbcf.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3></h3>
+                    <div class="price">$170.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                    <a href="#" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://m.media-amazon.com/images/I/71ESjSke3sL._SY695_.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3></h3>
+                    <div class="price">$170.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                    <a href="#" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://images.meesho.com/images/products/203857603/ree9g_512.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3></h3>
+                    <div class="price">$170.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                    <a href="#" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://m.media-amazon.com/images/I/51ZSWjMPMnL._AC_UY1000_.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3></h3>
+                    <div class="price">$170.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                    <a href="#" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://m.media-amazon.com/images/I/51Lyb7bVGsL._AC_UY1000_.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3></h3>
+                    <div class="price">$170.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                    <a href="#" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTClf7S_ASLkOpqe6Ufd3T4NjhYNUDDd5X20w&s" alt="">
+                </div>
+                <div class="content">
+                    <h3></h3>
+                    <div class="price">$170.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                    <a href="#" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- latest product section ends -->
+
+    <!-- banner section starts -->
+
+    <section class="banner-container">
+
+        <div class="banner">
+            <img src="https://www.alnasser.pk/cdn/shop/products/7R305292_1080x.jpg?v=1681209630" alt="">
+            <div class="content">
+                <span>limited offer</span>
+                <h3>upto 40% off</h3>
+                <button class="btn">
+                    <span>shop now</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="https://fuelshoes.com/cdn/shop/products/18-9-2021-51.jpg?v=1632478806&width=2100" alt="">
+            <div class="content">
+                <span>limited offer</span>
+                <h3>upto 40% off</h3>
+                <button class="btn">
+                    <span>shop now</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- banner section ends -->
+
+    <!-- featured product section starts -->
+
+    <section class="sandel" id="sandel">
+
+        <h1 class="heading"><span>featured</span> products</h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="https://toffpark.com/wp-content/uploads/2024/04/genuine-leather-high-end-soft-sole-sandel-black.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3></h3>
+                        <div class="price">$20.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="https://www.alnasser.pk/cdn/shop/products/7R305292_1080x.jpg?v=1681209630" alt="">
+                    </div>
+                    <div class="content">
+                        <h3></h3>
+                        <div class="price">$20.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="https://www.alnasser.pk/cdn/shop/products/7R305292_1080x.jpg?v=1681209630" alt="">
+                    </div>
+                    <div class="content">
+                        <h3></h3>
+                        <div class="price">$20.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="https://www.alnasser.pk/cdn/shop/products/7R305292_1080x.jpg?v=1681209630" alt="">
+                    </div>
+                    <div class="content">
+                        <h3></h3>
+                        <div class="price">$20.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="https://www.alnasser.pk/cdn/shop/products/7R305292_1080x.jpg?v=1681209630" alt="">
+                    </div>
+                    <div class="content">
+                        <h3></h3>
+                        <div class="price">$20.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="https://www.alnasser.pk/cdn/shop/products/7R305292_1080x.jpg?v=1681209630" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nike shoes</h3>
+                        <div class="price">$20.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+    </section>
+
+    <!-- featured product section ends -->
+
+    <!-- review section starts -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"><span>client's</span> review</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.alnasser.pk/cdn/shop/products/7R305292_1080x.jpg?v=1681209630" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>lexxa paul</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorem optio at quisquam tenetur ipsum.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/pic-2.png?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>lexxa paul</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorem optio at quisquam tenetur ipsum.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/pic-3.png?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>lexxa paul</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorem optio at quisquam tenetur ipsum.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- send gift section starts -->
+
+    <section class="send">
+
+        <div class="container">
+
+            <div class="content">
+                <h2 class="title">send gift now</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur culpa quibusdam porro.</p>
+                <form action="">
+                    <input type="text" class="input" placeholder="House Address">
+                    <a href="#" class="btn">send</a>
+                </form>
+            </div>
+            <div class="image">
+                <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/Send%20gift.png?raw=true" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- send gift section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"><span>contact</span> us</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/contact.png?raw=true" alt="">
+            </div>
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="Your Number">
+                    <input type="text" placeholder="Your Subject">
+                </div>
+                <textarea placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magnam.</p>
+            </div>
+
+            <div class="box">
+                <h3>our services</h3>
+                <a href="#">pricing</a>
+                <a href="#">discount</a>
+                <a href="#">refund policy</a>
+                <a href="#">shipping mode</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">products</a>
+                <a href="#">featured</a>
+                <a href="#">review</a>
+            </div>
+
+            <div class="box">
+                <h3>social links</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="credit">
+        &copy; copyright @ 2024 by SHARIQ SHEHZAD
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section ends -->
+ <style>
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: #fff;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #10221b;
+    border-radius: .5rem;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.heading{
+    font-size: 3.5rem;
+    color: #45c287;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.heading span{
+    color: #10221b;
+}
+
+.btn{
+    display: flex;
+    gap: .7rem;
+    align-items: center;
+    margin-top: 1rem;
+    padding: .9rem 3rem;
+    border-radius: .5rem;
+    background: #10221b;
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #219150;
+}
+
+
+/* header */
+
+.header{
+    width: 96%;
+    position: fixed;
+    top: 1.5rem; left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 5rem;
+    background: #fff;
+}
+
+.header-active{
+    top: 0;
+    width: 100%;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #10221b;
+}
+
+.header .logo i{
+    color: #219150;
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    color: #10221b;
+    margin: 0 1rem;
+}
+
+.header .navbar a:hover{
+    color: #45c287;
+}
+
+.header .icons div,
+.header .icons a{
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    color: #fff;
+    cursor: pointer;
+    -webkit-text-stroke: .1rem #10221b;
+}
+
+.header .icons div:hover,
+.header .icons a:hover{
+    -webkit-text-stroke: .1rem #45c287;
+}
+
+.header .search-form{
+    position: absolute;
+    top: 115%; right: -105%;
+    width: 50rem;
+    height: 5.5rem;
+    background: #fff;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    border: .1rem solid rgba(0,0,0,0.3);
+}
+
+.header .search-form.active{
+    right: 2rem;
+    transition: .4s linear;
+}
+
+.header .search-form input{
+    width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    text-transform: none;
+    color: #45c287;
+    padding: 0 1.2rem;
+}
+
+.header .search-form label{
+    font-size: 2.2rem;
+    color: #fff;
+    cursor: pointer;
+    -webkit-text-stroke: .1rem #10221b;
+    margin-right: 1.7rem;
+}
+
+.header .search-form label:hover{
+    -webkit-text-stroke: .1rem #45c287;
+}
+
+#menu-btn{
+    display: none;
+}
+
+/* end */
+
+/* home */
+
+@keyframes fadeOut{
+    0%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeLeft{
+    0%{
+        transform: translateX(-5rem);
+        opacity: 0;
+    }
+}
+
+.home{
+    position: relative;
+}
+
+.home .slides-container .slide{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem 0;
+    display: none;
+}
+
+.home .slides-container .slide.active{
+    display: flex;
+}
+
+.home .slides-container .slide .content{
+    flex: 1 1 40rem;
+    animation: fadeLeft .4s linear .4s backwards;
+}
+
+.home .slides-container .slide .content span{
+    font-size: 2rem;
+    color: #666;
+}
+
+.home .slides-container .slide .content h3{
+    font-size: 6rem;
+    color: #45c287;
+    padding-top: .5rem;
+}
+
+.home .slides-container .slide .content p{
+    font-size: 1.5rem;
+    color: #666;
+    padding: .5rem 0;
+    line-height: 2;
+}
+
+.home .slides-container .slide .content .btn span{
+    color: #fff;
+}
+
+.home .slides-container .slide .image{
+    flex: 1 1 30rem;
+    padding: 3rem 0;
+}
+
+.home .slides-container .slide .image img{
+    width: 100%;
+    animation: fadeOut .4s linear;
+}
+
+.home #slide-next,
+.home #slide-prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 3rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    border: .1rem solid #10221b;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+}
+
+.home #slide-next:hover,
+.home #slide-prev:hover{
+    background: #10221b;
+    color: #fff;
+}
+
+.home #slide-next{
+    right: 2rem;
+}
+
+.home #slide-prev{
+    left: 2rem;
+}
+
+/* end */
+
+/* latest product */
+
+.products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.products .box-container .box{
+    position: relative;
+    background: #f9f9f9;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: .1rem solid rgba(0,0,0,0.3);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.products .box-container .box .image{
+    height: 35rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.products .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.products .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.products .box-container .box .content{
+    padding: 1.5rem 2rem;
+}
+
+.products .box-container .box .content h3{
+    font-size: 2rem;
+    color: #10221b;
+}
+
+.products .box-container .box .content .price{
+    font-size: 1.7rem;
+    color: #666;
+    padding: .5rem 0;
+}
+
+.products .box-container .box .content .stars{
+    font-size: 1.7rem;
+}
+
+.products .box-container .box .content .stars i{
+    color: gold;
+}
+
+.products .box-container .box .content .stars span{
+    color: #666;
+}
+
+.products .box-container .box .content .btn{
+    position: absolute;
+    bottom: 0; right: 0;
+    display: flex;
+    font-size: 2rem;
+    padding: 1.2rem 1.25rem;
+    border-radius: 1rem 0 1rem 0;
+}
+
+/* end */
+
+/* banner */
+
+.banner-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.banner-container .banner{
+    flex: 1 1 42rem;
+    overflow: hidden;
+    height: 30rem;
+    position: relative;
+}
+
+.banner-container .banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-container .banner:hover img{
+    transform: scale(1.1);
+}
+
+.banner-container .banner .content{
+    position: absolute;
+    top: 50%;
+    left: 3rem;
+    transform: translateY(-50%);
+}
+
+.banner-container .banner .content span{
+    font-size: 2rem;
+    color: #666;
+}
+
+.banner-container .banner .content h3{
+    font-size: 3.2rem;
+    color: #45c287;
+    padding-top: .5rem;
+}
+
+.banner-container .banner .content .btn span{
+    color: #fff;
+}
+
+/* end */
+
+/* featured product */
+
+.featured .featured-slider .slide{
+    position: relative;
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+    border: .1rem solid rgba(0,0,0,0.3);
+}
+
+.featured .featured-slider .slide .discount{
+    position: absolute;
+    top: 1rem; left: 1rem;
+    display: block;
+    height: 2.5rem;
+    width: 5rem;
+    background: #45c287;
+    color: #fff;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
+
+.featured .featured-slider .slide .image{
+    width: 100%;
+    overflow: hidden;
+}
+
+.featured .featured-slider .slide .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.featured .featured-slider .slide .content{
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
+
+.featured .featured-slider .slide .content h3{
+    font-size: 2rem;
+    color: #10221b;
+    font-weight: normal;
+}
+
+.featured .featured-slider .slide .content .price{
+    padding: .5rem 0;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    color: #10221b;
+}
+
+.featured .featured-slider .slide .content .stars{
+    font-size: 1.7rem;
+}
+
+.featured .featured-slider .slide .content .stars i{
+    color: gold;
+}
+
+.featured .featured-slider .slide .content .btn{
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+    height: 4rem;
+    width: 4rem;
+    border-radius: .5rem;
+    background: #fff;
+    color: #10221b;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    border: .1rem solid rgba(0,0,0,0.3);
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover{
+    background: #10221b;
+    color: #fff;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    font-size: 1.5rem;
+}
+
+/* end */
+
+/* review */
+
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 1.5rem;
+}
+
+.review .box-container .box{
+    margin: 4rem 0;
+    padding-bottom: 2rem;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.review .box-container .box .image{
+    margin-top: -5rem;
+}
+
+.review .box-container .box .image img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-container .box .content .stars i{
+    color: gold;
+    font-size: 1.7rem;
+    padding: .5rem .1rem 1rem;
+}
+
+.review .box-container .box .content h3{
+    font-size: 2rem;
+    color: #10221b;
+}
+
+.review .box-container .box .content p{
+    font-size: 1.4rem;
+    color: #666;
+    padding: .5rem 1.5rem;
+}
+
+/* end */
+
+
+/* send gift */
+
+.send .container{
+    background: #45c287;
+    align-items: center;
+    border-radius: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.send .container .content{
+    flex: 1 1 42rem;
+    margin: 0 3.5rem;
+    text-align: center;
+}
+
+.send .container .content .title{
+    color: #10221b;
+    font-size: 2.8rem;
+}
+
+.send .container .content p{
+    color: #fff;
+    margin: 2rem 0;
+    font-size: 1.4rem;
+}
+
+.send .container .content form{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.send .container .content form .input{
+    font-size: 1.5rem;
+    padding: 1rem 1.2rem;
+}
+
+.send .container .content form .btn{
+    margin-top: 0;
+}
+
+.send .container .image{
+    flex: 1 1 42rem;
+}
+
+.send .container .image img{
+    width: 35vw;
+    height: 60vh;
+}
+
+/* end */
+
+/* contact */
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contact .row .image{
+    flex: 1 1 30rem;
+}
+
+.contact .row .image img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.contact .row form{
+    flex: 1 1 42rem;
+    padding: 2rem;
+    border: .1rem solid rgba(0,0,0,0.3);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    border-radius: .5rem;
+}
+
+.contact .row form h3{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: #10221b;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact .row form .inputBox input{
+    width: 49%;
+}
+
+.contact .row form .inputBox input,
+.contact .row form textarea{
+    border: .1rem solid rgba(0,0,0,0.3);
+    padding: 1rem 1.2rem;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    color: #10221b;
+    text-transform: none;
+    margin: .7rem 0;
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+    width: 100%;
+}
+
+/* end */
+
+/* footer */
+
+.footer{
+    background: #f4fffa;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    color: #10221b;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: #666;
+    line-height: 2;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.4rem;
+    color: #666;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a:hover{
+    color: #45c287;
+}
+
+.footer .box-container .box a i{
+    color: #10221b;
+    padding-right: .5rem;
+}
+
+.credit{
+    text-align: center;
+    background: #10221b;
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+@media(max-width: 991px){
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding: 2rem;
+    }
+
+    section{
+        padding: 2rem;
+    }
+
+    .home .slides-container .slide .content{
+        margin-top: 5rem;
+    }
+
+    .home #slide-next,
+    .home #slide-prev{
+        top: 95%;
+    }
+
+    .home #slide-prev{
+        left: auto;
+        right: 8rem;
+    }
+    .send .container .content{
+        padding-top: 2rem;
+    }
+}
+
+@media(max-width: 200px){
+
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top: 99%; left: 0; right: 0;
+        background: #fff;
+        border-top: .1rem solid rgba(0,0,0,0.3);
+        border-bottom: .1rem solid rgba(0,0,0,0.3);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .header .navbar a{
+        font-size: 2rem;
+        margin: 2rem;
+        display: block;
+    }
+
+    
+
+    .send .container .image img{
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 450px){
+    html{
+        font-size: 50%;
+    }
+}
+ </style>
+</body>
+</html>
